@@ -12,7 +12,7 @@ end
 
 
 function playState:update(dt)
-	if love.keyboard.isDown('return') then gGameStates:change('pauseState'); end
+	--if love.keyboard.isDown('return') then gGameStates:change('pauseState'); end
 	player:update(dt);
 	booze:update(dt);
 end
