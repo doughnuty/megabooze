@@ -24,6 +24,7 @@ function playState:render()
 	displayUI();
 end
 
+--i'll just leave a comment here
 
 function playState:exit() end
 function playState:enter() end
